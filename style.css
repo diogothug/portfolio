@@ -1,0 +1,26 @@
+body {
+    display: flexbox;
+    justify-content: flex-start;
+}
+
+header {
+    background-color: blue;
+}
+
+main {
+    background: pink;
+}
+
+section {
+    background: green;
+}
+
+aside {
+    background: gray;
+}
+
+footer {
+    background: purple;
+    color: whitesmoke;
+    text-align: center;
+}
