@@ -1,7 +1,5 @@
 body {
-    background-color: #252525;
-    background-image: url('/imgs/SL-092619-23740-28.jpg');
-    background-repeat: no-repeat;
+    background-color: #252124;
     color: whitesmoke;
 }
 
@@ -68,7 +66,7 @@ main>p {
 }
 
 section {
-    background-color: #494949;
+    background-color: #353535;
     box-sizing: border-box;
     display: flex;
     align-items: center;
