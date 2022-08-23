@@ -9,6 +9,19 @@ body {
     align-self: center;
 }
 
+p {
+    margin: 0;
+}
+
+hr {
+    box-sizing: border-box;
+    max-width: 50%;
+    padding:0 40%;
+    margin: 0 auto 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
 a:link, a:visited, a:active {
     color: whitesmoke;
     text-decoration: none;
@@ -48,16 +61,36 @@ header {
 
 main {
     display: flex;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
-    align-items: baseline;
-    margin: 10px 15px;
-    padding: 10px;
-    background: #252525;
+    align-items: center;
+    margin: auto;
+}
+
+main>p {
+    align-self: baseline;
 }
 
 section {
-    background-color: #252525;
+    background-color: #494949;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 7px 15px 14px 15px;
+}
+
+section h1 {
+    font-size: 1.2em;
+    margin: 0 0 1% 0;
+}
+
+section p {
+    padding: 0px 1.2em;
+}
+
+section ul {
+    margin: 0;
 }
 
 aside {
