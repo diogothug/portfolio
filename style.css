@@ -1,26 +1,61 @@
 body {
-    display: flexbox;
-    justify-content: flex-start;
+    background-color: #252525;
+    color: whitesmoke;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+a:link, a:visited, a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
-    background-color: blue;
+    background: #252525;
+    width: 90%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+#titulo_principal {
+    display: flex;
+    justify-content: flex-start;
+    width: 350px;
+    min-width: 25%;
+    max-width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#meu_nome {
+    margin-left: 10px;
 }
 
 main {
-    background: pink;
+    padding: 10px;
+    background: #252525;
 }
 
 section {
-    background: green;
+    background-color: #252525;
 }
 
 aside {
-    background: gray;
+    background:black;
 }
 
 footer {
-    background: purple;
-    color: whitesmoke;
     text-align: center;
 }
